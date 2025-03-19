@@ -15,10 +15,17 @@ Tell Me Chatbot is a Mental Well-being chatbot serving as a proxy to provide ini
 
 4. Streamlit: For front end we are going to use Streamlit. I have made a basic skeleton of the UI. Need more time to improve it.
 
+![Alt text](images/live_chat.png)
+![Alt text](images/simulated_chat.png)
+![Alt text](images/well_being_planner.png)
+![Alt text](images/recording.png)
+
 I will keep on going to work on this project. This project is my submission for the Tech16: Large Language Model for Business Coursework at Stanford. 
 
 ## How to run
 streamlit run app.py
+
+further configurations like required libraries and config will be provided in future.
 
 ## Citation
 If you are using this code please cite me.
