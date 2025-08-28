@@ -27,6 +27,13 @@ torch.classes.__path__ = [os.path.join(torch.__path__[0], torch.classes.__file__
 # ENV & Secrets
 # =========================
 load_dotenv()
+ACCESS_CODE = os.getenv("ACCESS_CODE", "")
+if ACCESS_CODE:
+    st.write("This demo is access-restricted.")
+    code = st.text_input("Enter access code to continue", type="password")
+    if code.strip() != ACCESS_CODE:
+        st.stop()
+        
 openai_api_key = os.getenv('open_ai_key')
 claude_api_key = os.getenv('claude_api_key')
 os.environ["OPENAI_API_KEY"] = openai_api_key or ""
