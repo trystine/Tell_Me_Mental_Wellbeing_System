@@ -180,6 +180,22 @@ def safe_upload_log(row: dict):
 # =========================
 # Non-RAG responder (direct model, no retrieval)
 # =========================
+def as_text(x):
+    # LlamaIndex chat engine response
+    if hasattr(x, "response"):
+        return str(x.response)
+    # LangChain message objects (OpenAI/Anthropic/etc.)
+    try:
+        from langchain_core.messages import BaseMessage
+        if isinstance(x, BaseMessage):
+            return x.content
+    except Exception:
+        pass
+    # Dicts or anything else
+    if isinstance(x, dict):
+        return x.get("text") or x.get("content") or str(x)
+    return str(x)
+
 def nonrag_reply(user_text: str, history: list[dict], model) -> str:
     style_prompt = (
         "You are a supportive, clear, non-clinical assistant. "
@@ -188,7 +204,7 @@ def nonrag_reply(user_text: str, history: list[dict], model) -> str:
     hist_txt = "\n".join(f"{m['role'].capitalize()}: {m['message']}" for m in history[-4:])
     prompt = f"{style_prompt}\n\n{hist_txt}\nUser: {user_text}"
     out = model.invoke(prompt)
-    return str(out)
+    return as_text(out)
 
 # =========================
 # Session state & model init
@@ -411,13 +427,10 @@ def render_chat_tab():
             else:
                 # Blinded branch: RAG vs non-RAG for THIS PART
                 if ss.arm == "rag":
-                    response = ss.chat_engine_rag.chat(client_input)
-                    if hasattr(response, "response"):
-                        response = str(response.response)
-                    response = sanitize(str(response))
+                    raw = ss.chat_engine_rag.chat(client_input)
                 else:
-                    response = nonrag_reply(client_input, ss.history, ss.model)
-                    response = sanitize(str(response))
+                    raw = nonrag_reply(client_input, ss.history, ss.model)
+                response = sanitize(as_text(raw))
 
             ss.history.append({"role": "bot", "message": response})
             ss.reset_input = True
