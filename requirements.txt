@@ -96,7 +96,7 @@ langchain-core==0.3.74
 langchain-ollama==0.3.0
 langchain-openai==0.3.31
 langchain-text-splitters==0.3.9
-langsmith==0.4.16
+langsmith>=0.3.45,<0.4
 litellm==1.72.6
 llama-cloud==0.1.15
 llama-cloud-services==0.6.6
