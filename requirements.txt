@@ -72,7 +72,7 @@ importlib_metadata==8.6.1
 importlib_resources==6.5.2
 instructor==1.9.0
 ipykernel==6.29.5
-ipython==9.4.0
+ipython==8.18.1
 ipython_pygments_lexers==1.1.1
 jedi==0.19.2
 Jinja2==3.1.6
