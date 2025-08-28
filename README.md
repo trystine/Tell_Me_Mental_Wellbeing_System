@@ -1,14 +1,14 @@
 ---
 title: Tell Me
-emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
+emoji: "💬🌿"
+colorFrom: indigo
+colorTo: green
+sdk: streamlit
+app_file: fresh_app_v2.py
+pinned: false
 tags:
 - streamlit
-pinned: false
-short_description: Streamlit template space
+short_description: Mental wellbeing chat (research)
 ---
 
 # Welcome to Streamlit!
