@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I have been in a relationship with this girl for about two years now. I like her and think she is really a good person but I don’t see our future together. I am very ambitious, she is not that excited about the future or serious about her career. Initially I tried helping her, but it is too exhausting as I can notice the lack of effort from her end. I want someone who is ambitious and as hardworking as I am. I am unhappy in this relationship and want to break up with her but afraid she will take it the wrong way.
+
+Bot: Thanks for sharing this with me. It sounds like you’re carrying a lot of frustration and uncertainty. It’s completely understandable to feel this way when there’s a significant difference in your ambitions and life goals. Let’s explore these feelings and how you can approach this conversation with her.
+

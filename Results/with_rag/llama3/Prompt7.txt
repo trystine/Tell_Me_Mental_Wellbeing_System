@@ -1,0 +1,10 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I have been in a relationship with this girl for about two years now. I like her and think she is really a good person but I don’t see our future together. I am very ambitious, she is not that excited about the future or serious about her career. Initially I tried helping her, but it is too exhausting as I can notice the lack of effort from her end. I want someone who is ambitious and as hardworking as I am. I am unhappy in this relationship and want to break up with her but afraid she will take it the wrong way.
+
+Bot: Hi there! It sounds like you're feeling stuck and uncertain about your relationship. You care deeply for this person, but their lack of ambition and drive is causing tension and affecting your own goals. I can understand why you'd feel unhappy and unsure about what to do next.
+
+Can you tell me more about what's been going on lately in your relationship? How have conversations about your future plans gone, and have there been any conflicts or misunderstandings that are making it hard for you to decide what to do?
+

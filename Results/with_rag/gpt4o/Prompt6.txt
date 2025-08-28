@@ -1,0 +1,10 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I grew up in a very orthodox household, my father abused my mother. Even though the physical abuse has stopped I still find him abusing my mom verbally. This behaviour has deeply affected me since childhood, I grew up thinking that all men are like that. This makes me incapable of trusting men and forming an emotional relationship with them. I am too scared to trust them and this has led to me avoiding them throughout my life.
+
+Bot: I'm really sorry to hear that you've had to experience such a difficult environment growing up. It's understandable that these experiences have shaped your perceptions and feelings towards trust and relationships. It's important to acknowledge the impact this has had on you and to be gentle with yourself as you explore these feelings. 
+
+Consider taking small steps toward healing, such as reflecting on the positive relationships you have witnessed or experienced, even if they are outside your family. Therapy can also be a supportive space to work through these feelings and explore new perspectives. Remember, you're not alone in this journey, and seeking support is a courageous step. How do you feel about exploring this further with someone who can guide you through the process?
+

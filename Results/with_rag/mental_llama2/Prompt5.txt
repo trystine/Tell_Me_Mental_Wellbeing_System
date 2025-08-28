@@ -1,0 +1,14 @@
+User: Hi
+
+Bot:   Hello! How can I support you today? Is there anything specific on your mind or any questions you have?
+
+User: I feel like an imposter in my office. I am surrounded by talented individuals and I always feel hesitant to share my ideas with them because I feel incapable and scared that someone will find out that I am not that smart and would treat me poorly or judge me because of it.
+
+Bot:   It sounds like you are experiencing feelings of self-doubt and imposter syndrome in your workplace. This is a common experience for many people, especially when they are surrounded by talented individuals. Here are some suggestions on how to cope with these feelings:
+
+1. Recognize that everyone feels this way at times: It's normal to feel hesitant or scared about sharing ideas in a competitive work environment. Remind yourself that everyone feels this way at times, and it doesn't mean you are not capable or smart enough.
+2. Focus on your strengths: Rather than comparing yourself to others or feeling like an imposter, try to focus on your own strengths and accomplishments. This can help boost your confidence and self-esteem in the workplace.
+3. Practice assertiveness and communication skills: It's important to communicate your ideas confidently and effectively. Practicing assertiveness and effective communication can help you feel more comfortable sharing your thoughts in the office.
+4. Seek support from others: Talking to a trusted friend or mentor about these feelings can provide valuable insight and support. Don't be afraid to seek guidance and reassurance when needed.
+5. Embrace challenges and growth opportunities: Don't let self-doubt hold you back from taking on new challenges and learning new skills. Embrace growth opportunities and see them as a way to improve yourself and your work in the office.
+

@@ -1,0 +1,8 @@
+User: Hi
+
+Bot:   Hello! How can I assist you today?
+
+User: I grew up in a very orthodox household, my father abused my mother. Even though the physical abuse has stopped I still find him abusing my mom verbally. This behaviour has deeply affected me since childhood, I grew up thinking that all men are like that. This makes me incapable of trusting men and forming an emotional relationship with them. I am too scared to trust them and this has led to me avoiding them throughout my life.
+
+Bot:   Thank you for sharing about your experiences growing up in an abusive household. It takes a lot of courage to open up about such traumatic events, and I want you to know that it's okay to feel scared and hesitant when it comes to trusting men and forming emotional relationships with them. The abuse you experienced has understandably had a lasting impact on your perception and trust issues. It's important to remember that not all men are abusive, but the experiences you had can shape your mindset and lead to healthy boundaries and self-protection strategies. Seeking therapy or counseling can be beneficial in addressing these trauma-related concerns and improving your emotional well-being.
+

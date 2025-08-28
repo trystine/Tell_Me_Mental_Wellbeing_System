@@ -1,0 +1,10 @@
+User: Hi
+
+Bot:   Hello! How can I support you today?
+
+User: I have been feeling anxious right before important group meetings which consistently lingers  with me throughout the day as I am unable to stop my racing mind and heart. I often shake my legs while doing this and I am uncomfortable and scared that my colleagues will figure it out. I also take huge deep breaths which can be alarming to others if they are all very calm and I am the only one in the room doing this.
+
+Bot:   It sounds like you are experiencing a significant level of anxiety before important group meetings. This is causing your racing mind, heart palpitations, and physical symptoms such as shaking legs. You also express fear that your colleagues will notice these signs of anxiety.
+To help manage this anxiety, I would suggest practicing relaxation techniques such as deep breathing exercises. These can help calm the body and mind during moments of high anxiety. It may also be helpful to communicate with your colleagues about your anxiety and work together to find ways to support each other in meetings.
+Additionally, considering seeking professional help from a therapist or counselor who specializes in anxiety disorders. They can provide additional guidance on managing anxiety and improving quality of life.
+

@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I kind of hate my parents for not giving me the same care and validation as they give to my elder brother. Being a second child is hard and I always have to make extra efforts for them to focus on me
+
+Bot: Thanks for sharing that with me. It takes a lot of courage to talk about feeling overlooked – I’m here to listen and help you explore those feelings.
+

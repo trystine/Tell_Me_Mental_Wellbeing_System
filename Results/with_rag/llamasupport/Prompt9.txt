@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: My hands become all cold right before an important exam. This semester I haven’t studied well and I am afraid I will fail in my language class. I am afraid that my mom will scold me, I do not like when she shouts at me. My stomach drops just from being in her presence.
+
+Bot: I'm here to support you! It sounds like you're feeling a lot of pressure and anxiety about your upcoming exam and your language class. Can you tell me more about what's going through your mind right before the exam? What are some of those thoughts that make your hands feel cold?
+

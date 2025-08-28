@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I have been feeling anxious right before important group meetings which consistently lingers  with me throughout the day as I am unable to stop my racing mind and heart. I often shake my legs while doing this and I am uncomfortable and scared that my colleagues will figure it out. I also take huge deep breaths which can be alarming to others if they are all very calm and I am the only one in the room doing this.
+
+Bot: That sounds incredibly distressing, and it takes a lot of courage to share that you’re experiencing this. It’s completely understandable that you’d feel anxious and worried about how others perceive your behavior – those racing thoughts and physical sensations can be overwhelming. Let’s explore what might be contributing to this and how we can work on managing those feelings. Would you like to talk about what specifically triggers these feelings or perhaps explore some strategies for coping with the physical sensations you’re experiencing?
+

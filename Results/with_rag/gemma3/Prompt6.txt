@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I grew up in a very orthodox household, my father abused my mother. Even though the physical abuse has stopped I still find him abusing my mom verbally. This behaviour has deeply affected me since childhood, I grew up thinking that all men are like that. This makes me incapable of trusting men and forming an emotional relationship with them. I am too scared to trust them and this has led to me avoiding them throughout my life.
+
+Bot: It sounds like you've carried a significant burden of pain and mistrust due to witnessing and experiencing your father's behavior. It’s completely understandable that this would deeply impact your ability to trust and connect with men. Recognizing this pattern and its origins is a really important step. Would you like to talk more about how this experience continues to affect you today, or perhaps explore some ways to gently challenge those deeply held beliefs?
+

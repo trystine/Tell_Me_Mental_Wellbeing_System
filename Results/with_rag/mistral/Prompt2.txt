@@ -1,0 +1,18 @@
+User: Hi
+
+Bot:  Hello there! How can I support you today?
+
+User: I have been feeling anxious right before important group meetings which consistently lingers  with me throughout the day as I am unable to stop my racing mind and heart. I often shake my legs while doing this and I am uncomfortable and scared that my colleagues will figure it out. I also take huge deep breaths which can be alarming to others if they are all very calm and I am the only one in the room doing this.
+
+Bot:  I'm really sorry to hear that you're feeling this way, but you're not alone. It sounds like your anxiety is impacting your daily life, and it's understandable that you might feel self-conscious about your physical reactions during group meetings. Here are a few strategies that might help:
+
+1. Preparation: Prior to the meeting, try to gather as much information as possible about what will happen and who will be there. This can help reduce uncertainty and the "what if" scenarios in your mind.
+
+2. Mindfulness exercises: Practicing deep breathing or a grounding technique before and during the meeting might help calm your racing thoughts and steady your heart rate.
+
+3. Self-care: Make sure you're taking care of yourself physically and emotionally. This includes getting enough sleep, eating well, and finding ways to manage stress outside of work.
+
+4. Communication: If you feel comfortable doing so, you might consider sharing with a trusted colleague or friend about your anxiety and ask for their support during meetings. This can help alleviate some of the pressure you're feeling.
+
+5. Professional help: If your anxiety continues to impact your life significantly, it may be helpful to speak with a mental health professional who can provide guidance and support tailored to your specific needs.
+

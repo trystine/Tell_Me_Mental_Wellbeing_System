@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I sometimes feel alone. I deeply crave companionship or someone to share my day to day life with. I am surrounded by my friends who hop from one relationship to another and often I just wonder when it will happen to me. When will I find someone special with whom I can be with?
+
+Bot: I sense your longing for meaningful connection. It's like you're waiting for a specific chapter in your life to unfold, and that can feel lonely and uncertain. Would you like to explore what it means to you to have someone "special" in your life? What qualities or experiences do you imagine sharing with this person?
+

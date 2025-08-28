@@ -1,0 +1,10 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I have been in a relationship with this girl for about two years now. I like her and think she is really a good person but I don’t see our future together. I am very ambitious, she is not that excited about the future or serious about her career. Initially I tried helping her, but it is too exhausting as I can notice the lack of effort from her end. I want someone who is ambitious and as hardworking as I am. I am unhappy in this relationship and want to break up with her but afraid she will take it the wrong way.
+
+Bot: Hi there! It takes a lot of courage to acknowledge that you're not feeling fulfilled in your relationship, especially when you care deeply about the other person. It's understandable that you're hesitant to have this conversation, as you worry about hurting her feelings.
+
+Can you tell me more about what specifically makes you feel like you're not compatible with each other? Is it just the difference in ambition and career goals, or are there other factors at play?
+

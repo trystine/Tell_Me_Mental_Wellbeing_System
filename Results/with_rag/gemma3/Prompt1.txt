@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I sometimes feel alone. I deeply crave companionship or someone to share my day to day life with. I am surrounded by my friends who hop from one relationship to another and often I just wonder when it will happen to me. When will I find someone special with whom I can be with?
+
+Bot: It sounds like you're experiencing a really deep longing for connection, and it's completely understandable to feel that way when you see others in relationships. It takes courage to acknowledge this desire for a deeper connection. Perhaps we could explore what feels missing for you in your current relationships, and what qualities you’re truly seeking in a companion?
+

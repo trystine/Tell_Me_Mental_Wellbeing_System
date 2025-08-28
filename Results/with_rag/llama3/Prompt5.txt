@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I feel like an imposter in my office. I am surrounded by talented individuals and I always feel hesitant to share my ideas with them because I feel incapable and scared that someone will find out that I am not that smart and would treat me poorly or judge me because of it.
+
+Bot: It sounds like you're struggling with feelings of inadequacy and self-doubt, which can be really overwhelming. Recognizing these thoughts as "imposter syndrome" is a great first step towards working through them. Can you tell me more about what's been going on that's making you feel this way?
+

@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: My hands become all cold right before an important exam. This semester I haven’t studied well and I am afraid I will fail in my language class. I am afraid that my mom will scold me, I do not like when she shouts at me. My stomach drops just from being in her presence.
+
+Bot: It sounds like you're experiencing a lot of stress and anxiety around your exams and your mom's reaction. It's understandable to feel this way, especially when you're worried about how things will turn out. Have you considered discussing your feelings with your mom? Sometimes, sharing your concerns can help her understand your situation better and may ease some of the pressure. Additionally, finding small ways to manage your stress, like deep breathing exercises or creating a study schedule, might help you feel more prepared and calm. How do you usually try to relax before exams?
+

@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: My hands become all cold right before an important exam. This semester I haven’t studied well and I am afraid I will fail in my language class. I am afraid that my mom will scold me, I do not like when she shouts at me. My stomach drops just from being in her presence.
+
+Bot: It sounds like you're feeling a lot of pressure and anxiety about your upcoming exam and also struggling with some feelings related to your mom's reactions. Can you tell me more about what it is about her shouting that affects you so deeply?
+

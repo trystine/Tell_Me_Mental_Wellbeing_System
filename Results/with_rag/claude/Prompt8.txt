@@ -1,0 +1,10 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I kind of hate my parents for not giving me the same care and validation as they give to my elder brother. Being a second child is hard and I always have to make extra efforts for them to focus on me
+
+Bot: That sounds really painful and frustrating. Feeling like you have to work harder for the same attention and validation your brother receives naturally can create deep hurt. Many second children experience similar dynamics, but that doesn't make your feelings any less valid.
+
+Have you been able to talk with your parents about how you feel? Sometimes parents don't realize they're creating these imbalances. What kind of differences do you notice in how they treat you compared to your brother?
+

@@ -1,0 +1,15 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I have been feeling anxious right before important group meetings which consistently lingers  with me throughout the day as I am unable to stop my racing mind and heart. I often shake my legs while doing this and I am uncomfortable and scared that my colleagues will figure it out. I also take huge deep breaths which can be alarming to others if they are all very calm and I am the only one in the room doing this.
+
+
+Bot: Thank you for sharing that with me. The anxiety you're experiencing before and during meetings sounds really challenging. Those physical symptoms - racing thoughts, fast heartbeat, leg shaking, and deep breathing - are common anxiety responses, but I understand why they feel uncomfortable, especially in a professional setting.
+
+Many people experience similar anxiety in group situations. The fear that others will notice often makes the symptoms feel even more intense. 
+
+Would you be open to exploring some techniques that might help manage these symptoms? There are breathing exercises specifically designed to be subtle in meetings, and grounding techniques that can help calm your nervous system without others noticing. We could also discuss ways to address the underlying anxiety about these meetings.
+
+What aspects of this situation feel most urgent for you to address?
+

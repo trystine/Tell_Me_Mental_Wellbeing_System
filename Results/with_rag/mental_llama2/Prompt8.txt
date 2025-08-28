@@ -1,0 +1,10 @@
+User: Hi
+
+Bot:   Sure! I'm here to help you. How can I assist you today?
+
+User: I kind of hate my parents for not giving me the same care and validation as they give to my elder brother. Being a second child is hard and I always have to make extra efforts for them to focus on me
+
+Bot:   Sorry to hear that you feel neglected and unfairly treated by your parents compared to your older brother. It can be difficult to navigate family dynamics and feel like one's needs are not being prioritized.
+It's important to remember that each child is unique and deserves individual attention and care from their parents. While it may be challenging, it's not uncommon for siblings to have different experiences and feelings within the same family unit.
+Rather than internalizing negative emotions or feeling resentful towards your parents, consider addressing these concerns with them directly and calmly. Communication can help resolve any misunderstandings and provide reassurance that you are valued and deserving of care and validation as well.
+

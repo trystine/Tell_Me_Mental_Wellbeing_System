@@ -1,0 +1,12 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I recently lost my family in a car crash. I am deeply affected by it as I was very close to them and loved them so much. How to find the hope to carry on with life.
+
+Bot: I'm so sorry to hear about your tragic loss. Losing your family in such a sudden way is incredibly painful, and it's understandable that you're feeling deeply affected. Finding hope can be difficult in times like these, but it's important to know that you're not alone in this journey.
+
+Consider reaching out to a grief counselor or therapist who can provide support and guidance tailored to your situation. They can help you navigate the complex emotions you're experiencing. Additionally, connecting with a support group of others who have faced similar losses can provide comfort and understanding.
+
+Take things one day at a time, and allow yourself to grieve at your own pace. Engage in activities that bring you some peace or comfort, whether that's spending time in nature, writing, or simply being with supportive friends. Remember, it's okay to ask for help and lean on others during this difficult time. Sending you strength and compassion as you move through this challenging period.
+

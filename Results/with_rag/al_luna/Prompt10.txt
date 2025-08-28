@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today? What's been on your mind lately?
+
+User: I think I have an alcohol problem. Everyday after office, I feel tired and to relax and get out of my office zone. I drink a glass of wine. Initially it started with one glass or two. But lately I have been drinking three to four glasses a day before bed.
+
+Bot: It takes a lot of courage to acknowledge that you might have an issue with alcohol. Can you tell me more about how you feel after drinking? Do you ever experience any negative emotions or behaviors when you're intoxicated, like feeling angry or guilty?
+

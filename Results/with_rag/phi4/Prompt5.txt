@@ -1,0 +1,17 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I feel like an imposter in my office. I am surrounded by talented individuals and I always feel hesitant to share my ideas with them because I feel incapable and scared that someone will find out that I am not that smart and would treat me poorly or judge me because of it.
+
+Bot: I'm really sorry you're feeling this way, but it's important for you know these feelings are common among many talented people in high-achieving environments. Remember your accomplishments and the hard work you've put into reaching where you currently stand.
+
+Have there been specific incidents that made you feel like an imposter? Let's talk about them together to find ways of overcoming those fears.
+
+
+Also, it might help for us brainstorm some strategies or techniques such as mindfulness exercises which can increase self-awareness. This way we could learn how these feelings are affecting your behavior and work on building confidence in a safe space.
+
+Is there something specific you'd like me assist you with about this situation? Or any other concern that's bothering you?
+
+[Would also ask the client if they want to involve someone else, such as their supervisor or HR representative. It might be beneficial for them.]
+

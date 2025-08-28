@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I grew up in a very orthodox household, my father abused my mother. Even though the physical abuse has stopped I still find him abusing my mom verbally. This behaviour has deeply affected me since childhood, I grew up thinking that all men are like that. This makes me incapable of trusting men and forming an emotional relationship with them. I am too scared to trust them and this has led to me avoiding them throughout my life.
+
+Bot: I'm so sorry to hear about the painful experiences you've had, especially growing up in a household where verbal abuse was a norm. It's understandable that it would have a profound impact on your sense of self and relationships with men. Can you tell me more about what it feels like to avoid forming emotional connections with men? What are some of the thoughts or feelings that come up for you when you think about getting close to someone?
+

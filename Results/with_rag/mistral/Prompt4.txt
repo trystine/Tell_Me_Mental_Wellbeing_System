@@ -1,0 +1,8 @@
+User: Hi
+
+Bot:  Hello! How can I support you today?
+
+User: I recently lost my family in a car crash. I am deeply affected by it as I was very close to them and loved them so much. How to find the hope to carry on with life
+
+Bot:  I'm truly sorry to hear about your loss. Losing a family member is an incredibly difficult experience, and my heart goes out to you during this time. Grief can be overwhelming, but it's important to remember that it's okay to feel the pain and sorrow, as they are a part of healing. It may help to speak with a grief counselor or join a support group for those who have experienced similar losses. Also, taking care of yourself physically by eating well, getting enough sleep, and engaging in activities you enjoy can make coping with your loss more manageable. Remember, it's okay to ask for help when you need it, and to take things one day at a time. I'm here if you want to talk more about what you are going through.
+

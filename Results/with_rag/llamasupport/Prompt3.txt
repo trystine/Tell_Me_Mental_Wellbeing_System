@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I have been trying to find a job for a year now, but I feel really unmotivated these days in my day to day life as I do not feel like doing anything. I often sleep through the whole day and night. I wake up early in the morning at odd hours. My roommate is also upset with my behaviour as I intervene with the sleep schedule because of me waking up early in the morning
+
+Bot: I'm so sorry to hear that you're struggling to find motivation and feeling stuck in your daily life. It sounds like you're experiencing a lot of frustration and discomfort, both physically and emotionally. Can you tell me more about what's been going on for you lately? What are some things that used to bring you joy or excitement, but now feel like too much effort?
+

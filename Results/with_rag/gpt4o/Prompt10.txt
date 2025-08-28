@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I think I have an alcohol problem. Everyday after office, I feel tired and to relax and get out of my office zone. I drink a glass of wine. Initially it started with one glass or two. But lately I have been drinking three to four glasses a day before bed.
+
+Bot: Thank you for sharing this with me. It sounds like you're noticing some changes in your drinking habits that are concerning to you. It's important to pay attention to these patterns, as they can impact both your physical and mental health. Have you noticed any specific triggers or situations that lead you to drink more? It might also be helpful to think about how you're feeling overall—are there other stressors or emotions that might be contributing to this? Exploring these can be a good starting point in understanding and addressing your concerns.
+

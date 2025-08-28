@@ -1,0 +1,14 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I feel like an imposter in my office. I am surrounded by talented individuals and I always feel hesitant to share my ideas with them because I feel incapable and scared that someone will find out that I am not that smart and would treat me poorly or judge me because of it.
+
+Bot: It sounds like you're experiencing what many people call "imposter syndrome" - that feeling of not belonging or believing you don't deserve your position despite evidence to the contrary. It's actually quite common, especially in environments with highly talented people.
+
+The fear of being "found out" or judged can be really paralyzing, making it difficult to share your ideas even when they might be valuable. What's important to remember is that you were hired for a reason - your skills and perspective are needed.
+
+Many successful professionals experience these same doubts. Sometimes our inner critic is much harsher than any external judgment would be.
+
+Would you feel comfortable sharing what happens on the occasions when you do share your ideas? Or what specifically makes you feel incapable compared to your colleagues?
+

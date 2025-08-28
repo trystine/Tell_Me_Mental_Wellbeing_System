@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I have been feeling anxious right before important group meetings which consistently lingers  with me throughout the day as I am unable to stop my racing mind and heart. I often shake my legs while doing this and I am uncomfortable and scared that my colleagues will figure it out. I also take huge deep breaths which can be alarming to others if they are all very calm and I am the only one in the room doing this
+
+Bot: I'm so sorry to hear you're experiencing such discomforting feelings of anxiety before important meetings. It's understandable that you'd want to feel more at ease and confident in these situations. Can you tell me more about what specifically happens right before the meeting that triggers this anxiety? Is there anything you've tried so far to manage your symptoms, or would you like some suggestions to get started?
+

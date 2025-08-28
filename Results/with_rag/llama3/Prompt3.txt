@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! It's great that you're reaching out. What brings you here today?
+
+User: I have been trying to find a job for a year now, but I feel really unmotivated these days in my day to day life as I do not feel like doing anything. I often sleep through the whole day and night. I wake up early in the morning at odd hours. My roommate is also upset with my behaviour as I intervene with the sleep schedule because of me waking up early in the morning.
+
+Bot: I'm so sorry to hear that you're struggling with motivation, sleep patterns, and feeling disconnected from your daily life. It's understandable to feel overwhelmed when job hunting takes a toll on your mental and physical well-being. Can you tell me more about what's been going on since you started job searching? Are there any specific stressors or emotions you've been experiencing that might be contributing to your feelings of apathy and irregular sleep patterns?
+

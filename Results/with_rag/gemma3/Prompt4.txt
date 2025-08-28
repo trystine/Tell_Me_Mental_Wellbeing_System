@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I recently lost my family in a car crash. I am deeply affected by it as I was very close to them and loved them so much. How to find the hope to carry on with life.
+
+Bot: I am so deeply sorry for your devastating loss. It’s completely understandable to feel lost and struggle to find hope after such a horrific event. Would you like to talk about what’s making it so difficult for you to find hope, or perhaps explore some ways to gently begin to rebuild your life?
+

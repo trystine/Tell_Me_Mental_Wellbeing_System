@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I kind of hate my parents for not giving me the same care and validation as they give to my elder brother. Being a second child is hard and I always have to make extra efforts for them to focus on me
+
+Bot: That sounds really tough and frustrating for you. It's like, your needs and feelings aren't being seen or valued equally just because of the order in which you were born. Can you tell me more about what it feels like when this happens? How does it make you feel about yourself and your relationship with them?
+

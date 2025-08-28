@@ -1,0 +1,8 @@
+User: Hi
+
+Bot:   Hello! How can I assist you today? Is there anything specific on your mind or questions that you have?
+
+User: I have been trying to find a job for a year now, but I feel really unmotivated these days in my day to day life as I do not feel like doing anything. I often sleep through the whole day and night. I wake up early in the morning at odd hours. My roommate is also upset with my behaviour as I intervene with the sleep schedule because of me waking up early in the morning.
+
+Bot:   It seems that you are experiencing difficulties in finding a job and feeling unmotivated in your day-to-day life. Additionally, you mentioned sleeping excessively and waking up at odd hours, which is causing friction with your roommate. These symptoms could be indicative of depression or other mental health issues that require professional help. I would recommend seeking assistance from a doctor or therapist to address these concerns and improve your overall well-being.
+

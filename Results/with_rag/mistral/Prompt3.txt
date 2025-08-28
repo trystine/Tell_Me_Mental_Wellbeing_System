@@ -1,0 +1,8 @@
+User: Hi
+
+Bot:  Hi there! How can I support you today? Let's take this journey together at your own pace.
+
+User: I have been trying to find a job for a year now, but I feel really unmotivated these days in my day to day life as I do not feel like doing anything. I often sleep through the whole day and night. I wake up early in the morning at odd hours. My roommate is also upset with my behaviour as I intervene with the sleep schedule because of me waking up early in the morning.
+
+Bot:  I'm sorry to hear that you're feeling this way, but I'm glad you reached out. It sounds like you're dealing with a lot right now, and it's okay to feel unmotivated sometimes. Have you considered speaking with a mental health professional who can help you manage these feelings? It might also be beneficial to create a daily routine or schedule for yourself, even if it seems small, to give structure to your days. Also, making sure you get enough sleep during the night could improve your energy levels throughout the day.
+

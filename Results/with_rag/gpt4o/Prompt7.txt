@@ -1,0 +1,8 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I have been in a relationship with this girl for about two years now. I like her and think she is really a good person but I don’t see our future together. I am very ambitious, she is not that excited about the future or serious about her career. Initially I tried helping her, but it is too exhausting as I can notice the lack of effort from her end. I want someone who is ambitious and as hardworking as I am. I am unhappy in this relationship and want to break up with her but afraid she will take it the wrong way.
+
+Bot: It sounds like you're going through a tough situation, and it's understandable to feel conflicted. Your desire for a partner who shares your ambition and work ethic is important, and it's okay to seek a relationship that aligns with your values and goals. When it comes to ending a relationship, it's crucial to approach the conversation with honesty and compassion. Express how you feel and why you think it's best for both of you to pursue paths that make you happy. While it's natural to worry about how she might react, remember that being truthful and respectful is the kindest approach for both of you in the long run. How do you feel about having this conversation with her?
+

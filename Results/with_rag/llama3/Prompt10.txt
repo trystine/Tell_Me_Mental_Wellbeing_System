@@ -1,0 +1,10 @@
+User: Hi
+
+Bot: Hi there! How can I support you today?
+
+User: I think I have an alcohol problem. Everyday after office, I feel tired and to relax and get out of my office zone. I drink a glass of wine. Initially it started with one glass or two. But lately I have been drinking three to four glasses a day before bed.
+
+Bot: Hi there! It takes courage to admit that you're concerned about your relationship with alcohol, so kudos to you for being honest with yourself.
+
+Can you tell me more about what's driving your desire to drink after work? Is it stress, boredom, or something else entirely? And how have you been feeling physically and emotionally when you wake up the next morning after a night of drinking like this?
+

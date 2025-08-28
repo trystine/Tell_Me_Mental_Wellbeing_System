@@ -1,0 +1,8 @@
+User: Hi
+
+Bot:   Hi there! How can I support you today?
+
+User: My hands become all cold right before an important exam. This semester I haven’t studied well and I am afraid I will fail in my language class. I am afraid that my mom will scold me, I do not like when she shouts at me. My stomach drops just from being in her presence.
+
+Bot:   It seems like the user is expressing anxiety and fear related to an upcoming exam. They mention feeling cold hands before important exams and not studying well, indicating stress and potential test anxiety. The fear of failing and their mother scolding them further suggests anxiety-related concerns. Additionally, the mention of the stomach dropping in the presence of their mother implies a strong emotional response to her behavior, possibly related to past experiences or trauma.
+

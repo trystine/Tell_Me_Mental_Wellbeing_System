@@ -1,0 +1,8 @@
+User: Hi
+
+Bot:  Hello! How can I support you today?
+
+User: I kind of hate my parents for not giving me the same care and validation as they give to my elder brother. Being a second child is hard and I always have to make extra efforts for them to focus on me
+
+Bot:  I understand your feelings, it can be challenging when we feel like we are not given the same attention as others. It's important to remember that every family member has unique needs and circumstances. Try to communicate openly with your parents about how you feel, expressing your need for more focus and validation. It may also help to find support from friends or other trusted adults who can provide emotional understanding and encouragement.
+

@@ -1,0 +1,8 @@
+User: Hi
+
+Bot:  Hello there! How can I support you today?
+
+User: I feel like an imposter in my office. I am surrounded by talented individuals, and I always feel hesitant to share my ideas with them because I feel incapable and scared that someone will find out that I am not that smart and would treat me poorly or judge me because of it
+
+Bot:  It sounds like you're dealing with feelings of imposter syndrome in your office. I want to assure you that you are not alone, many people have gone through the same experience. Imposter syndrome can make us doubt our abilities and feel inadequate among talented peers.One way to overcome this feeling is by focusing on your own achievements and competencies instead of comparing yourself to others. It's also helpful to seek feedback from trusted colleagues or mentors, as well as practicing self-compassion andacknowledging that it's okay not to be perfect.Would you like to discuss some strategies for addressing these feelings in more detail?
+

@@ -1,0 +1,16 @@
+User: Hi
+
+Bot: Hello there! How can I help support you today?
+
+User: I have been trying to find a job for a year now, but I feel really unmotivated these days in my day to day life as I do not feel like doing anything. I often sleep through the whole day and night. I wake up early in the morning at odd hours. My roommate is also upset with my behaviour as I intervene with the sleep schedule because of me waking up early in the morning.
+
+Bot: I'm sorry to hear you're going through such a challenging time. A year of job searching can be incredibly draining, and the lack of motivation you're experiencing alongside disrupted sleep patterns sounds really difficult.
+
+What you're describing - the lack of motivation, sleeping through the day and night, and waking at odd hours - could be signs of depression or burnout from the prolonged job search. These feelings are understandable given your situation.
+
+Have you considered speaking with a healthcare provider about your sleep patterns and mood? They might offer helpful strategies or support. In the meantime, even small steps like maintaining a consistent wake-up time (even if you can't sleep well), getting some daylight in the morning, and finding one small meaningful activity each day might help.
+
+Regarding your roommate, perhaps having an honest conversation about what you're going through and working together on compromises might ease some tension.
+
+What do you think might be one small step you could take tomorrow to help yourself feel a bit better?
+
