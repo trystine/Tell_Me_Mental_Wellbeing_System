@@ -206,7 +206,7 @@ llm_mentallama2   = OllamaLLM(model="vitorcalvi/mentallama2:latest")
 llm_llamasupport  = OllamaLLM(model="wmb/llamasupport")
 llm_al_luna       = OllamaLLM(model="ALIENTELLIGENCE/mentalwellness")
 
-ss.model = llm_al_luna  # your chosen default
+ss.model = llm_claude  # your chosen default
 
 if "sentiment_chain" not in ss:
     ss.sentiment_chain = llm_models_file.Sentiment_chain(ss.model)
