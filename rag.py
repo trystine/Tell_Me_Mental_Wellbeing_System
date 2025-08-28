@@ -90,11 +90,11 @@ def create_chat_engine(llm):
     else:
         print("Creating and saving new index...")
         df2 = pd.read_json(
-            "data/combined_dataset.json", lines=True
+            "rag_data/combined_dataset.json", lines=True
         )
         dataset2 = DatasetDict({"train": df2})
 
-        df= pd.read_csv('data/20220401_counsel_chat.csv')
+        df= pd.read_csv('rag_data/20220401_counsel_chat.csv')
 
         df['upvotes'] = df['upvotes'].fillna(-1)
 
