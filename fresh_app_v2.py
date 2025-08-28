@@ -177,6 +177,7 @@ def safe_upload_log(row: dict):
     if ENABLE_LOGGING:
         upload_log(row)            # upload to HF if configured
 
+
 # =========================
 # Non-RAG responder (direct model, no retrieval)
 # =========================
@@ -510,6 +511,30 @@ def render_chat_tab():
                     "blocks": ss.block_logs,
                 }
                 safe_upload_log(row)  # local + optional HF upload
+                try:
+                    row = {
+                        "ts": int(time.time()),
+                        "participant_id": ss.get("participant_id", ""),
+                        "order": " -> ".join(ss.arm_order),
+                        "ai_usage": ss.get("ai_usage", {}),
+                        "blocks": ss.block_logs,
+                    }
+
+                    # Optional local write if possible; no HF upload because secrets unset
+                    safe_upload_log(row)
+
+                    # ALWAYS offer user download (no storage costs)
+                    json_payload = json.dumps(row, ensure_ascii=False, indent=2)
+                    st.success("Thanks! Your feedback was recorded. You’ve completed both parts.")
+                    st.download_button(
+                        "⬇️ Download your anonymized study record (JSON)",
+                        data=json_payload,
+                        file_name=f"tellme_{ss.get('participant_id','anon') or 'anon'}_{row['ts']}.json",
+                        mime="application/json"
+                    )
+                except Exception as e:
+                    st.error(f"Logging failed: {e}")
+
                 st.success("Thanks! Your feedback was recorded. You’ve completed both parts.")
             except Exception as e:
                 st.error(f"Logging failed: {e}")
