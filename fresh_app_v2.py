@@ -454,7 +454,6 @@ def render_chat_tab():
             "helpful": helpful, "supportive": supportive, "clarity": clarity,
             "groundedness": groundedness, "overall": overall,
             "comments": comments,
-            "turns": ss.history,
         }
         ss.block_logs.append(block)
 
