@@ -20,12 +20,8 @@ from huggingface_hub import HfApi
 
 st.set_page_config(page_title="Tell Me — A Mental Well Being Space", page_icon="🌿", layout="wide")
 
-# Torch shim (from your code)
 torch.classes.__path__ = [os.path.join(torch.__path__[0], torch.classes.__file__)]
 
-# =========================
-# ENV & Secrets
-# =========================
 load_dotenv()
 ACCESS_CODE = os.getenv("ACCESS_CODE", "")
 if ACCESS_CODE:
@@ -33,24 +29,20 @@ if ACCESS_CODE:
     code = st.text_input("Enter access code to continue", type="password")
     if code.strip() != ACCESS_CODE:
         st.stop()
-        
+
 openai_api_key = os.getenv('open_ai_key')
 claude_api_key = os.getenv('claude_api_key')
 os.environ["OPENAI_API_KEY"] = openai_api_key or ""
 os.environ['ANTHROPIC_API_KEY'] = claude_api_key or ""
 
-# Hugging Face logging config (set in Space → Settings → Secrets)
-LOG_DATASET_REPO = os.getenv("LOG_DATASET_REPO")  # e.g. "your-username/tell_me_logs"
+
+LOG_DATASET_REPO = os.getenv("LOG_DATASET_REPO")  
 HF_TOKEN = os.getenv("HF_TOKEN")
-# Optional: force order during pilots: "AB" (rag→nonrag) or "BA"
-FORCE_ORDER = os.getenv("FORCE_ORDER")  # "AB" | "BA" | None
-# If you enable persistent storage on Spaces, point your index here
+FORCE_ORDER = os.getenv("FORCE_ORDER") 
 RAG_INDEX_DIR = os.getenv("RAG_INDEX_DIR", "/data/index_storage")
-# Local log directory (works on your laptop; on Spaces use /data/logs for persistence)
 LOCAL_LOG_DIR = os.getenv("LOCAL_LOG_DIR", os.path.join("Results", "logs"))
 ENABLE_LOGGING = bool(LOG_DATASET_REPO and HF_TOKEN)
 
-# Neutral prep spinner duration (same for both arms)
 PREP_SPINNER_SECONDS = float(os.getenv("PREP_SPINNER_SECONDS", "1.2"))
 
 def inject_ui_css():
@@ -101,7 +93,7 @@ def header_bar():
       </div>
     """, unsafe_allow_html=True)
 
-# Background helpers – makes BG visible in light/dark & "system" mode
+
 @st.cache_data()
 def file_to_base64(path: str) -> str:
     with open(path, "rb") as f:
@@ -125,9 +117,7 @@ def set_app_background(image_path: str):
     except Exception as e:
         print("Background image failed:", e)
 
-# =========================
-# Blinding / Assignment helpers
-# =========================
+
 def assign_order(pid: str | None) -> list[str]:
     if FORCE_ORDER in ("AB", "BA"):
         return ["rag", "nonrag"] if FORCE_ORDER == "AB" else ["nonrag", "rag"]
@@ -146,9 +136,7 @@ def sanitize(text: str) -> str:
         text = re.sub(pat, repl, text)
     return text.strip()
 
-# =========================
-# Logging helpers: local mirror + optional HF upload
-# =========================
+
 _hf_api = HfApi()
 
 def write_local_log(row: dict):
@@ -180,26 +168,20 @@ def upload_log(row: dict):
     )
 
 def safe_upload_log(row: dict):
-    write_local_log(row)           # always write locally
+    write_local_log(row)           
     if ENABLE_LOGGING:
-        upload_log(row)            # upload to HF if configured
+        upload_log(row)            
 
-
-# =========================
-# Non-RAG responder (direct model, no retrieval)
-# =========================
 def as_text(x):
-    # LlamaIndex chat engine response
     if hasattr(x, "response"):
         return str(x.response)
-    # LangChain message objects (OpenAI/Anthropic/etc.)
     try:
         from langchain_core.messages import BaseMessage
         if isinstance(x, BaseMessage):
             return x.content
     except Exception:
         pass
-    # Dicts or anything else
+
     if isinstance(x, dict):
         return x.get("text") or x.get("content") or str(x)
     return str(x)
@@ -214,9 +196,7 @@ def nonrag_reply(user_text: str, history: list[dict], model) -> str:
     out = model.invoke(prompt)
     return as_text(out)
 
-# =========================
-# Session state & model init
-# =========================
+
 ss = st.session_state
 
 llm_llama = OllamaLLM(model="llama3")
@@ -233,22 +213,16 @@ llm_al_luna       = OllamaLLM(model="ALIENTELLIGENCE/mentalwellness")
 ss.model = llm_claude  # your chosen default
 
 if "sentiment_chain" not in ss:
-    ss.sentiment_chain = llm_models_file.Sentiment_chain(ss.model)
+    ss.sentiment_chain = llm_models_file.Sentiment_chain(ss.model) # loading sentiment checker model
 if "rag_decider" not in ss:
-    ss.rag_decider = llm_models_file.rag_decider_chain(ss.model)
+    ss.rag_decider = llm_models_file.rag_decider_chain(ss.model) 
 if "chat_engine_rag" not in ss:
-    ss.chat_engine_rag = None
+    ss.chat_engine_rag = None # Loading chat engine model
 
-# =========================
-# Apply background + header
-# =========================
 set_app_background('bg.jpg')
 inject_ui_css()
 header_bar()
 
-# =========================
-# Consent + assignment (two parts) — form hidden after submit
-# =========================
 st.info("This is a research prototype demo. It’s **not** medical/professional advice. If you need help, contact a professional or a local crisis line.")
 
 if "started" not in ss:
@@ -306,9 +280,6 @@ if not ss.get("started", False):
 if not ss.started:
     st.stop()
 
-# =========================
-# Sidebar (progress & privacy)
-# =========================
 with st.sidebar:
     st.markdown("### 🌿 Wellbeing Study")
     progress = 0.5 if getattr(ss, "phase", 0) == 1 else 0.25
@@ -326,18 +297,12 @@ with st.sidebar:
             "If you’re in immediate distress, contact local emergency services or a suicide prevention hotline in your region."
         )
 
-# =========================
-# Streamlit fragments (safe fallback if not available)
-# =========================
 if hasattr(st, "fragment"):
     fragment = st.fragment
 else:
     def fragment(func):
         return func
 
-# =========================
-# Tabs
-# =========================
 tab1, tab2, tab3 = st.tabs(["Chat with a Therapist", "Simulate a Conversation", "Well-being Planner"])
 
 @fragment
@@ -374,7 +339,6 @@ def render_chat_tab():
     if 'prepared' not in ss:
         ss.prepared = False
 
-    # Display chat history
     for message in ss.history:
         if message['role'] == 'user':
             st.markdown(
@@ -389,7 +353,6 @@ def render_chat_tab():
                 unsafe_allow_html=True
             )
 
-    # Sticky input CSS + container
     st.markdown(
         """
         <style>
@@ -417,14 +380,12 @@ def render_chat_tab():
 
     if st.button("Send"):
         if client_input.strip():
-            # One-time neutral prep per part (builds RAG only if needed)
             if not ss.prepared:
                 prepare_part(build_rag=(ss.arm == "rag"))
                 ss.prepared = True
 
             ss.history.append({"role": "user", "message": client_input})
 
-            # Sentiment guard
             sentiment_result = ss.sentiment_chain.invoke({"client_response": client_input})
             ss.last_sentiment = sentiment_result.get("text", "—")
             if any(word in ss.last_sentiment.lower() for word in ["suicidal", "dangerous"]):
@@ -433,7 +394,6 @@ def render_chat_tab():
                     "Please reach out to a mental health professional or contact a crisis hotline immediately."
                 )
             else:
-                # Blinded branch: RAG vs non-RAG for THIS PART
                 if ss.arm == "rag":
                     raw = ss.chat_engine_rag.chat(client_input)
                 else:
@@ -444,7 +404,6 @@ def render_chat_tab():
             ss.reset_input = True
             st.rerun()
 
-    # Transcript download (this part only)
     chat_text = ""
     for msg in ss.history:
         role = "User" if msg['role'] == "user" else "Bot"
@@ -462,7 +421,6 @@ def render_chat_tab():
         ss.reset_input = True
         st.rerun()
 
-    # Ratings with tooltips
     st.markdown("---")
     st.markdown("### Quick ratings for this part (1 = Low, 5 = High)")
     metric_help = {
@@ -505,7 +463,7 @@ def render_chat_tab():
             ss.arm = ss.arm_order[1]
             ss.history = []
             ss.reset_input = True
-            ss.prepared = False  # reset so Part 2 shows neutral prep again
+            ss.prepared = False  
             st.success("Part 1 complete. Part 2 is ready. Continue when you’re ready.")
             st.rerun()
         else:
@@ -514,10 +472,10 @@ def render_chat_tab():
                     "ts": int(time.time()),
                     "participant_id": ss.get("participant_id", ""),
                     "order": " -> ".join(ss.arm_order),
-                    "ai_usage": ss.get("ai_usage", {}),  # include prior AI usage
+                    "ai_usage": ss.get("ai_usage", {}),  
                     "blocks": ss.block_logs,
                 }
-                safe_upload_log(row)  # local + optional HF upload
+                safe_upload_log(row)  
                 try:
                     row = {
                         "ts": int(time.time()),
@@ -527,10 +485,8 @@ def render_chat_tab():
                         "blocks": ss.block_logs,
                     }
 
-                    # Optional local write if possible; no HF upload because secrets unset
                     safe_upload_log(row)
 
-                    # ALWAYS offer user download (no storage costs)
                     json_payload = json.dumps(row, ensure_ascii=False, indent=2)
                     st.success("Thanks! Your feedback was recorded. You’ve completed both parts.")
                     st.download_button(
@@ -546,7 +502,7 @@ def render_chat_tab():
             except Exception as e:
                 st.error(f"Logging failed: {e}")
 
-    st.markdown('</div>', unsafe_allow_html=True)  # end sticky input
+    st.markdown('</div>', unsafe_allow_html=True)  
 
 @fragment
 def render_simulation_tab():
@@ -646,7 +602,6 @@ def render_planner_tab():
             except FileNotFoundError:
                 st.info("Meditation audio not found.")
 
-# ---- Mount tabs ----
 with tab1:
     render_chat_tab()
 
