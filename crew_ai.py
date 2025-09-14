@@ -23,9 +23,9 @@ try:
 except Exception:
     TTS = None
 
-load_dotenv()
-openai_api_key = os.getenv('open_ai_key_for_crew_ai')
-os.environ["OPENAI_API_KEY"] = openai_api_key
+# load_dotenv()
+# openai_api_key = os.getenv('open_ai_key_for_crew_ai')
+# os.environ["OPENAI_API_KEY"] = openai_api_key
 
 TTS_PROVIDER   = os.getenv("TTS_PROVIDER", "gtts").lower()  
 ELEVEN_KEY     = os.getenv("ELEVEN_API_KEY") or os.getenv("ELEVENLABS_API_KEY")
@@ -174,7 +174,9 @@ def _extract_task_output(task: Any) -> str:
     except Exception:
         return ""
 
-def task_agent_pipeline(chat_transcript):
+def task_agent_pipeline(chat_transcript, openai_api_key):
+    
+    os.environ["OPENAI_API_KEY"] = openai_api_key
     print("Reached crew_ai with transcript")
     print(chat_transcript)
 
