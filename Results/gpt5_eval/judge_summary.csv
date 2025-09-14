@@ -1,0 +1,10 @@
+model,avg_score,rank
+claude,9.5,1
+gpt4o,8.8,2
+llama3,8.6,3
+al_luna,8.5,4
+gemma3,8.5,4
+llamasupport,8.4,6
+mistral,7.9,7
+phi4,7.3,8
+mental_llama2,5.8,9
