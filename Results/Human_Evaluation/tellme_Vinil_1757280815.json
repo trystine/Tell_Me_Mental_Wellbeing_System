@@ -1,0 +1,41 @@
+{
+  "ts": 1757280815,
+  "participant_id": "Vinil",
+  "order": "nonrag -> rag",
+  "ai_usage": {
+    "used_ai_for_emotions": "No",
+    "details": ""
+  },
+  "blocks": [
+    {
+      "arm": "nonrag",
+      "num_turns": 8,
+      "helpful": 2,
+      "supportive": 3,
+      "clarity": 4,
+      "groundedness": 3,
+      "overall": 3,
+      "comments": "Was quicker in response"
+    },
+    {
+      "arm": "rag",
+      "num_turns": 4,
+      "helpful": 3,
+      "supportive": 3,
+      "clarity": 3,
+      "groundedness": 3,
+      "overall": 3,
+      "comments": "The second model was slower but had comparatively better response"
+    },
+    {
+      "arm": "rag",
+      "num_turns": 0,
+      "helpful": 2,
+      "supportive": 3,
+      "clarity": 3,
+      "groundedness": 3,
+      "overall": 2,
+      "comments": "The model stopped conversation in the middle."
+    }
+  ]
+}

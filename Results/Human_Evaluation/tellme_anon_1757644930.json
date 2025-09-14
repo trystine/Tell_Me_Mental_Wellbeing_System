@@ -1,0 +1,31 @@
+{
+  "ts": 1757644930,
+  "participant_id": "",
+  "order": "rag -> nonrag",
+  "ai_usage": {
+    "used_ai_for_emotions": "No",
+    "details": ""
+  },
+  "blocks": [
+    {
+      "arm": "rag",
+      "num_turns": 10,
+      "helpful": 3,
+      "supportive": 4,
+      "clarity": 4,
+      "groundedness": 4,
+      "overall": 4,
+      "comments": "+ Builds relevant responses, with an approachable tone\n+ Stays on point, and addresses questions\n- Response time is very slow, takes up to 5-10sec to get answers for more complex questions\n- Tone can be overly helpful at times"
+    },
+    {
+      "arm": "nonrag",
+      "num_turns": 14,
+      "helpful": 3,
+      "supportive": 2,
+      "clarity": 3,
+      "groundedness": 4,
+      "overall": 3,
+      "comments": "+ Much faster response times\n- Very brief at first, had to be told to be more helpful\n- Limited helpful questions or directions to steer the conversation\n- Tone is slightly unfriendly and could come across as aloof"
+    }
+  ]
+}

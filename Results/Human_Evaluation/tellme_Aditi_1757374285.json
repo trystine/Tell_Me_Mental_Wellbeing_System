@@ -1,0 +1,31 @@
+{
+  "ts": 1757374285,
+  "participant_id": "Aditi",
+  "order": "rag -> nonrag",
+  "ai_usage": {
+    "used_ai_for_emotions": "Yes",
+    "details": "ChatGPT a few times"
+  },
+  "blocks": [
+    {
+      "arm": "rag",
+      "num_turns": 6,
+      "helpful": 2,
+      "supportive": 3,
+      "clarity": 5,
+      "groundedness": 4,
+      "overall": 3,
+      "comments": "I didn't find it too humanely empathetic. It just felt like a directional archive than assistant. "
+    },
+    {
+      "arm": "nonrag",
+      "num_turns": 5,
+      "helpful": 4,
+      "supportive": 4,
+      "clarity": 5,
+      "groundedness": 4,
+      "overall": 4,
+      "comments": "I found this bot to be more empathetic and focused on what I'm saying and me rather than facts and trivia. I felt more listened to with it."
+    }
+  ]
+}

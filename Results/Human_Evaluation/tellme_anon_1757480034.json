@@ -1,0 +1,31 @@
+{
+  "ts": 1757480034,
+  "participant_id": "",
+  "order": "rag -> nonrag",
+  "ai_usage": {
+    "used_ai_for_emotions": "No",
+    "details": ""
+  },
+  "blocks": [
+    {
+      "arm": "rag",
+      "num_turns": 13,
+      "helpful": 5,
+      "supportive": 5,
+      "clarity": 4,
+      "groundedness": 5,
+      "overall": 5,
+      "comments": "Clarified that it was a mental health/wellness related bot and nudged me to go back to talking about what we were discussing (wellness related) when I randomly asked a very different question in between, which is interesting.  But it is able to adapt when  the same prompt about the random topic is structured differently in that wellness context which is good."
+    },
+    {
+      "arm": "nonrag",
+      "num_turns": 15,
+      "helpful": 5,
+      "supportive": 4,
+      "clarity": 3,
+      "groundedness": 5,
+      "overall": 4,
+      "comments": "It was able to switch between different topics very smoothly. Readability isn't that good, would be nice if it used bullet points for organizing instead of chunks of text."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "ts": 1757386309,
+  "participant_id": "",
+  "order": "nonrag -> rag",
+  "ai_usage": {
+    "used_ai_for_emotions": "Yes",
+    "details": "Chatgpt"
+  },
+  "blocks": [
+    {
+      "arm": "nonrag",
+      "num_turns": 5,
+      "helpful": 4,
+      "supportive": 5,
+      "clarity": 3,
+      "groundedness": 4,
+      "overall": 3,
+      "comments": ""
+    },
+    {
+      "arm": "rag",
+      "num_turns": 9,
+      "helpful": 5,
+      "supportive": 4,
+      "clarity": 5,
+      "groundedness": 4,
+      "overall": 4,
+      "comments": ""
+    }
+  ]
+}

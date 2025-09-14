@@ -1,0 +1,31 @@
+{
+  "ts": 1757278384,
+  "participant_id": "Shraddha",
+  "order": "rag -> nonrag",
+  "ai_usage": {
+    "used_ai_for_emotions": "Yes",
+    "details": "Chat gpt. Used very rarely"
+  },
+  "blocks": [
+    {
+      "arm": "rag",
+      "num_turns": 6,
+      "helpful": 5,
+      "supportive": 4,
+      "clarity": 4,
+      "groundedness": 3,
+      "overall": 3,
+      "comments": "The color combination making it very difficult to read the stuff on the screen. \nAnd the response time is very slow. "
+    },
+    {
+      "arm": "nonrag",
+      "num_turns": 6,
+      "helpful": 3,
+      "supportive": 3,
+      "clarity": 4,
+      "groundedness": 4,
+      "overall": 4,
+      "comments": ""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "ts": 1757742023,
+  "participant_id": "Trish",
+  "order": "rag -> nonrag",
+  "ai_usage": {
+    "used_ai_for_emotions": "Yes",
+    "details": "Chatgpt, I use it time to time to talk out about certain thoughts that bothers me."
+  },
+  "blocks": [
+    {
+      "arm": "rag",
+      "num_turns": 7,
+      "helpful": 4,
+      "supportive": 4,
+      "clarity": 4,
+      "groundedness": 4,
+      "overall": 4,
+      "comments": "I feel the experience was really great.  The assistant was able to rephrase and re-iterate some of my responsed kinda validating it. It felt good as it meant that I am being listened. I also liked the way it had questions in the end to continue the conversation or engage me more on the interaction. Though some of the list of advices were unsolicited but they were good enough basic advice. It felt like it tried to problem solve in areas where I don't want advice."
+    },
+    {
+      "arm": "nonrag",
+      "num_turns": 6,
+      "helpful": 4,
+      "supportive": 3,
+      "clarity": 3,
+      "groundedness": 2,
+      "overall": 3,
+      "comments": "I felt talking to this assistant it was a little less humane. Like the responses were good in mirroring my thoughts or response, but the suggestion it gave was not listed as bullet points so it was hard to read. Also the assistant introduced some new words like anxiety that I never mentioned and than started giving examples like most people would do this.. kinda leading the user. This can lead to overthinking. Also it did not ask follow up questions to engage the conversation. I found the previous model better."
+    }
+  ]
+}

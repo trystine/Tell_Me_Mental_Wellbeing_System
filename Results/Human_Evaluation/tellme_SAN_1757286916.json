@@ -1,0 +1,31 @@
+{
+  "ts": 1757286916,
+  "participant_id": "SAN",
+  "order": "nonrag -> rag",
+  "ai_usage": {
+    "used_ai_for_emotions": "No",
+    "details": ""
+  },
+  "blocks": [
+    {
+      "arm": "nonrag",
+      "num_turns": 5,
+      "helpful": 4,
+      "supportive": 5,
+      "clarity": 4,
+      "groundedness": 5,
+      "overall": 4,
+      "comments": "I feel the response can be more clear in terms of organization. Some prompts can be answered in bullet points rather than one huge paragraph."
+    },
+    {
+      "arm": "rag",
+      "num_turns": 5,
+      "helpful": 5,
+      "supportive": 4,
+      "clarity": 5,
+      "groundedness": 5,
+      "overall": 4,
+      "comments": "This bot was very organized and gave on point answers. However, the tone was very direct. It would have been a great overall experience if the tone was slightly more warm and friendly."
+    }
+  ]
+}

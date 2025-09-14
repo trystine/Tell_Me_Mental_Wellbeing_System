@@ -1,0 +1,31 @@
+{
+  "ts": 1757222374,
+  "participant_id": "Praveen",
+  "order": "nonrag -> rag",
+  "ai_usage": {
+    "used_ai_for_emotions": "No",
+    "details": ""
+  },
+  "blocks": [
+    {
+      "arm": "nonrag",
+      "num_turns": 12,
+      "helpful": 5,
+      "supportive": 4,
+      "clarity": 2,
+      "groundedness": 4,
+      "overall": 4,
+      "comments": "Does not have very clear opinions in difficult situations and tries to play it safe."
+    },
+    {
+      "arm": "rag",
+      "num_turns": 7,
+      "helpful": 4,
+      "supportive": 4,
+      "clarity": 4,
+      "groundedness": 2,
+      "overall": 4,
+      "comments": "This one felt a bit more rebellious and did not seem to agree with what I said and was a lot more opinionated."
+    }
+  ]
+}

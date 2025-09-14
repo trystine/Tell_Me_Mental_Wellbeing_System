@@ -1,0 +1,31 @@
+{
+  "ts": 1757364436,
+  "participant_id": "Dhaval",
+  "order": "rag -> nonrag",
+  "ai_usage": {
+    "used_ai_for_emotions": "No",
+    "details": ""
+  },
+  "blocks": [
+    {
+      "arm": "rag",
+      "num_turns": 4,
+      "helpful": 4,
+      "supportive": 4,
+      "clarity": 4,
+      "groundedness": 4,
+      "overall": 4,
+      "comments": "this was more emotional oriented then solution driven  "
+    },
+    {
+      "arm": "nonrag",
+      "num_turns": 4,
+      "helpful": 5,
+      "supportive": 5,
+      "clarity": 4,
+      "groundedness": 5,
+      "overall": 4,
+      "comments": "I like the 2nd approach because it is solution oriented and comforting as well 2nd chatbot helped me build confidence in myself and made me understand that i cant worry about factors which are not under my control that makes me feel comfortable and confident for the challenges \n"
+    }
+  ]
+}
