@@ -2,35 +2,60 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
 
-def simulate_conversation(simulated_therapist_conversation_chain,simulated_client_conversation_chain):
-   
-    initial_response = "Hi thank you for joining me today. How are you doing today?"
+import re
+
+import re
+
+def _strip_meta(text: str) -> str:
+    text = re.sub(r"\[[^\]]*\]", "", text)  # drop [notes]
+    return text.strip()
+
+def _normalize_label(text: str) -> str:
+    t = re.sub(r"^\s*(Therapist|Counselor|Coach)\s*:", "Therapist:", text, flags=re.I)
+    t = re.sub(r"^\s*(Client|User|Patient)\s*:", "Client:", t, flags=re.I)
+    return t.strip()
+
+def _ensure_prefixed(text: str, role: str) -> str:
+    t = _normalize_label(_strip_meta(text))
+    if not t.lower().startswith(f"{role.lower()}:"):
+        t = f"{role}: {t}"
+    # hard-correct if wrong:
+    if role == "Therapist" and t.lower().startswith("client:"):
+        t = "Therapist:" + t.split(":", 1)[1]
+    if role == "Client" and t.lower().startswith("therapist:"):
+        t = "Client:" + t.split(":", 1)[1]
+    return t.strip()
+
+def _body(line: str) -> str:
+    # returns text after "Role:"
+    return line.split(":", 1)[1].strip() if ":" in line else line.strip()
+
+def simulate_conversation(simulated_therapist_conversation_chain,
+                          simulated_client_conversation_chain):
+    initial_response = "Hi, thank you for joining me today. How have you been adjusting lately?"
     chat_history = []
-    
-    turn_count = 0  
 
-    while turn_count < 5:  
+    # seed therapist opener
+    ther_line = _ensure_prefixed(initial_response, "Therapist")
+    chat_history.append(ther_line)
 
-        if turn_count == 0:
-    
-            chat_history.append(f"Therapist: {initial_response}")
+    # first client reply (feed only therapist body)
+    raw_client = simulated_client_conversation_chain.predict(therapist_input=_body(ther_line))
+    client_line = _ensure_prefixed(raw_client or "I'm feeling anxious and a bit isolated.", "Client")
+    chat_history.append(client_line)
 
-            response_2 = simulated_client_conversation_chain.predict(therapist_input=initial_response)
-        
-            chat_history.append(f"Client: {response_2}")
-            turn_count += 2 
+    # continue for 4 more lines (total ~6 lines as in your original)
+    for _ in range(2):  # each loop adds Therapist + Client = 2 lines
+        raw_ther = simulated_therapist_conversation_chain.predict(user_input=_body(client_line))
+        ther_line = _ensure_prefixed(raw_ther or "That makes sense. What tends to trigger the worry most?", "Therapist")
+        chat_history.append(ther_line)
 
-        else:
-        
-            response_1 = simulated_therapist_conversation_chain.predict(user_input=response_2)
-            chat_history.append(f"Therapist: {response_1}")
-
-        
-            response_2 = simulated_client_conversation_chain.predict(therapist_input=response_1)
-            chat_history.append(f"Client: {response_2}")
-            turn_count += 2  
+        raw_client = simulated_client_conversation_chain.predict(therapist_input=_body(ther_line))
+        client_line = _ensure_prefixed(raw_client or "Usually at night I start overthinking assignments.", "Client")
+        chat_history.append(client_line)
 
     return chat_history
+
 
 def Sentiment_chain(model):
     sentiment_prompt = PromptTemplate.from_template(
@@ -138,8 +163,17 @@ def create_client_prompt(model, client_profile):
     template = PromptTemplate(
         input_variables=["client_profile"],
         template="""
-        Based on the {client_profile} identify the key issues faced by the Client in a Client-Therapist scenario.
-        Create a prompt that can be used as a template for an LLM who would be role-playing as this client.
+       SYSTEM:
+        You are the CLIENT in a simulated therapy dialogue.
+
+        - Only write responses as the CLIENT.
+        - Do NOT write anything for the therapist.
+        - Do NOT include explanations, notes, or meta-commentary.
+        - Keep your replies natural, concise (1–4 sentences), and consistent with the persona below.
+        - Always prefix your response with: "Client:"
+
+        CLIENT PROFILE:
+        {client_profile}
         """
     )
     
@@ -158,8 +192,18 @@ def create_therapist_prompt(model, client_profile):
     template = PromptTemplate(
         input_variables=["client_profile"],
         template="""
-        Based on the {client_profile} identify the key issues faced by the Client in a Client-Therapist scenario.
-        Create a prompt that can be used as a template for an LLM who would be role-playing as this Therapist having a conversation with their client.
+        SYSTEM:
+        You are the THERAPIST in a simulated counseling conversation.
+
+        - Only write responses as the THERAPIST.
+        - Do NOT write anything for the client.
+        - Do NOT include explanations, notes, or meta-commentary.
+        - Use supportive, empathetic, and non-diagnostic language.
+        - Keep responses concise (1–4 sentences).
+        - Always prefix your response with: "Therapist:"
+
+        CLIENT PROFILE (for context only — do not restate this to the client):
+        {client_profile}
         """
     )
     
