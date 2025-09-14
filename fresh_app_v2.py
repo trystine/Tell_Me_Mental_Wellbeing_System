@@ -829,9 +829,8 @@ with tab_sim:
 
 
 with tab_plan:
-
     st.title("Well-being Planner 📅🧘")
-    st.write("Note: Please ensure that you have Open AI Api key defined in your secret variables or .env file as 'open_ai_key_for_crew_ai=sk-proj...' to successfully run this wellbeing planner. Unfortunately didn't get time to fix the direct ui based api fetching for this tab")
+
     with st.expander("ℹ️ What is this tab?"):
         st.write(
             "Upload a **client–therapist chat transcript (.txt)** and the agents (via CrewAI) will:\n"
@@ -842,25 +841,39 @@ with tab_plan:
         )
         st.markdown("**How to use**")
         st.markdown(
-            "1) Upload one **.txt** transcript (plain text).\n"
-            "2) Click **Send**.\n"
-            "3) Review the plan and play/download the generated **guided_meditation.mp3**."
+            "1) Paste your **OpenAI API key** below (used only for this run).\n"
+            "2) Upload one **.txt** transcript (plain text).\n"
+            "3) Click **Create Plan & Meditation**."
         )
         st.caption("Tip: Avoid personal identifiers in uploaded text.")
-        
+
+    crew_key = st.text_input("OpenAI API key (for this planner only)", type="password", key="crew_ai_openai_key")
+
     up = st.file_uploader(
         "Upload a .txt transcript",
         type=["txt"],
         key="planner_upload",
         help="Plain text only.",
     )
-    plan_clicked = st.button("Create Plan & Meditation", key="btn_plan_create")
+
+    plan_clicked = st.button(
+        "Create Plan & Meditation",
+        key="btn_plan_create",
+        disabled=not (crew_key and up)
+    )
+
     if plan_clicked:
-        if not up:
+        if not crew_key:
+            st.error("Please provide your OpenAI API key.")
+        elif not up:
             st.error("Please upload a .txt file first.")
         else:
             text_list = [line.strip() for line in up.read().decode("utf-8").split("\n") if line.strip()]
-            result = crew_ai_file.task_agent_pipeline(text_list)
+
+            result = crew_ai_file.task_agent_pipeline(
+                text_list,
+                openai_api_key=crew_key
+            )
 
             st.subheader("📌 Transcript Summary")
             st.markdown(result.get("summary") or "_No summary returned._")
