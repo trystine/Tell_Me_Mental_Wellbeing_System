@@ -81,8 +81,6 @@ pip install -r requirements.txt
 Create a `.env` in the project root (same folder as `fresh_app_v2.py`). Minimal example:
 
 ```dotenv
-# Used by the Well‑being Planner (CrewAI) tab
-open_ai_key_for_crew_ai=sk-...
 
 # Optional TTS configuration for the guided meditation
 # TTS_PROVIDER=gtts               # or: edge | coqui | elevenlabs
@@ -112,7 +110,7 @@ Open the URL Streamlit prints (usually http://localhost:8501).
 3. Optionally **Download Transcript**.
 
 ### Well‑being Planner 📅🧘
-1. Ensure your `.env` has `open_ai_key_for_crew_ai=sk-...` (or paste a key in the tab if the field is available).
+1. Ensure you provide open ai api key for running this module (i.e paste a key in the tab if the field is available).
 2. Upload one **.txt** transcript (client–therapist chat).
 3. Click **Create Plan & Meditation**.
 4. The app displays:
@@ -211,3 +209,8 @@ Add a license (e.g., MIT) in `LICENSE` if you plan to distribute.
 - Streamlit template seed  
 - CrewAI & LiteLLM ecosystem  
 - TTS libraries: gTTS, Edge‑TTS, Coqui TTS, ElevenLabs
+
+## Acknowledgment of AI Assistance
+Some parts of this project (e.g., boilerplate code for UI modules) were generated or refined with the assistance of GPT-5. 
+All outputs were reviewed, tested, and integrated by the authors.
+
