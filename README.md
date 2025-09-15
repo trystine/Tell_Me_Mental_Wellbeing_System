@@ -211,6 +211,6 @@ Add a license (e.g., MIT) in `LICENSE` if you plan to distribute.
 - TTS libraries: gTTS, Edge‑TTS, Coqui TTS, ElevenLabs
 
 ## Acknowledgment of AI Assistance
-Some parts of this project (e.g., boilerplate code for UI modules) were generated or refined with the assistance of GPT-5. 
+Some parts of this project code was generated or refined with the assistance of GPT-5. 
 All outputs were reviewed, tested, and integrated by the authors.
 
